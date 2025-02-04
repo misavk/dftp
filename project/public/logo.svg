@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#FFFFFF">
+    <!-- Retângulo de fundo -->
+    <path d="M0 0h800v200H0z" fill="#003366"/>
+
+    <!-- Círculo centralizado -->
+    <path d="M150.3 50c-30.2 0-54.7 24.5-54.7 54.7s24.5 54.7 54.7 54.7 54.7-24.5 54.7-54.7S180.5 50 150.3 50zm0 98.4c-24.1 0-43.7-19.6-43.7-43.7s19.6-43.7 43.7-43.7 43.7 19.6 43.7 43.7-19.6 43.7-43.7 43.7z" fill="#FFFFFF"/>
+    
+    <!-- Caixa de texto -->
+    <text x="250" y="120" font-family="Arial" font-size="72" fill="#FFFFFF">DF TRANSPORTES</text>
+  </g>
+</svg>

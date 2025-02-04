@@ -1,0 +1,103 @@
+.google-translate-fixed {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.google-translate-fixed:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+  .google-translate-fixed {
+    bottom: 80px;
+    left: 10px;
+  }
+}
+
+/* Override Google Translate widget styles */
+.goog-te-gadget {
+  font-family: inherit !important;
+  font-size: 13px !important;
+  margin: 0 !important;
+}
+
+.goog-te-gadget-simple {
+  background-color: #003366 !important;
+  border: none !important;
+  padding: 8px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.2s ease !important;
+  width: 40px !important;
+  height: 40px !important;
+  position: relative !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value {
+  color: white !important;
+  text-transform: none !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.goog-te-gadget img {
+  display: none !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span {
+  border: none !important;
+  color: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span:first-child {
+  position: relative !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span:first-child:before {
+  content: 'あ' !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  color: white !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-gadget-simple:hover {
+  background-color: #002244 !important;
+  transform: translateY(-1px) !important;
+}
+
+.goog-te-gadget-simple:active {
+  transform: translateY(0) !important;
+}
+
+/* Hide all other spans and elements */
+.goog-te-gadget span:not(:first-child),
+.goog-te-menu-value span:not(:first-child),
+.goog-te-gadget-simple img,
+.goog-te-gadget br {
+  display: none !important;
+}
