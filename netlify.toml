@@ -4,4 +4,3 @@ publish = "project/dist"
 
 [build.cache]
 paths = ["node_modules", "package-lock.json"]
-git status
