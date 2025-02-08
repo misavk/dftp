@@ -1,0 +1,10 @@
+{
+    "builds": [
+      {
+        "src": "project/**",
+        "use": "@vercel/python",
+        "config": { "pythonVersion": "3.8" }
+      }
+    ]
+  }
+  
