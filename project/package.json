@@ -10,6 +10,9 @@
     "preview": "vite preview",
     "install": "npm install && curl -sS https://bootstrap.pypa.io/get-pip.py | python3 && pip install -r requirements.txt"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
     "@headlessui/react": "^1.7.18",
@@ -41,4 +44,3 @@
     "@vercel/python": "^2.0.0"
   }
 }
-
